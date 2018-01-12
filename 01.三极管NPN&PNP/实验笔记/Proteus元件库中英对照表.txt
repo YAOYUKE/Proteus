@@ -1,0 +1,501 @@
+﻿常用器件的英文名称
+------------------------------------------------------------------------------------
+
+
+CRYSTAL   晶振 
+AND       与门
+ANTENNA   天线
+BATTERY   直流电源（电池）
+BELL      铃,钟
+BRIDEG 1  整流桥(二极管)
+BRIDEG 2  整流桥(集成块)
+BUFFER    缓冲器
+BUZZER    蜂鸣器
+CAP       电容
+CAPACITOR       电容
+CAPACITOR POL   有极性电容
+CAPVAR          可调电容
+CIRCUIT BREAKER 熔断丝
+COAX            同轴电缆
+CON             插口
+CRYSTAL         晶振
+DB              并行插口
+DIODE           二极管
+DIODE SCHOTTKY  稳压二极管
+DIODE VARACTOR  变容二极管
+DPY_3-SEG       3段LED
+DPY_7-SEG       7段LED
+DPY_7-SEG_DP    7段LED(带小数点)
+ELECTRO         电解电容
+FUSE            熔断器
+INDUCTOR        电感
+INDUCTOR IRON   带铁芯电感
+INDUCTOR3       可调电感
+JFET N          N沟道场效应管
+JFET P          P沟道场效应管
+LAMP            灯泡
+LAMP NEDN       起辉器
+LED          发光二极管
+METER        仪表
+MICROPHONE   麦克风
+MOSFET       MOS管
+MOTOR AC     交流电机
+MOTOR SERVO  伺服电机
+NAND         与非门
+NOR          或非门
+NOT          非门
+NPN          NPN三极管
+NPN-PHOTO    感光三极管
+OPAMP        运放
+OR           或门
+PHOTO        感光二极管
+PNP          PNP三极管
+NPN DAR      NPN三极管
+PNP DAR      PNP三极管
+POT          滑线变阻器
+PELAY-DPDT   双刀双掷继电器
+RES1.2       电阻
+RES3.4       可变电阻
+BRIDGE       桥式电阻
+RESPACK      电阻排
+SCR          晶闸管
+PLUG           插头
+PLUG AC FEMALE 三相交流插头
+SOCKET         插座
+SOURCE CURRENT 电流源
+SOURCE VOLTAGE 电压源
+SPEAKER        扬声器
+SW             开关
+SW-DPDY        双刀双掷开关
+SW-SPST        单刀单掷开关
+SW-PB          按钮
+THERMISTOR     电热调节器
+TRANS1         变压器
+TRANS2         可调变压器
+TRIAC          三端双向可控硅
+TRIODE         三极真空管
+VARISTOR       变阻器
+ZENER          齐纳二极管
+DPY_7-SEG_DP   数码管 
+SW-PB          开关  
+
+
+
+7407        驱动门       
+1N914        二极管       
+74Ls00        与非门       
+74LS04        非门       
+74LS08        与门       
+74LS390        TTL 双十进制计数器       
+7SEG        4针BCD-LED 输出从0-9 对应于4根线的BCD码 
+7SEG        3-8译码器电路BCD-7SEG[size=+0]转换电路       
+ALTERNATOR 交流发电机       
+AMMETER-MILLI mA安培计       
+AND        与门       
+BATTERY        电池/电池组       
+BUS        总线       
+CAP        电容       
+CAPACITOR 电容器       
+CLOCK        时钟信号源       
+CRYSTAL        晶振       
+D-FLIPFLOP D触发器       
+FUSE        保险丝       
+GROUND        地       
+LAMP        灯       
+LED-RED        红色发光二极管       
+LM016L        2行16列液晶 可显示2行16列英文字符，有8位数据总线D0-D7，RS，R/W，EN三个控制端口（共14线），工作电压为5V。没背光，和常用的1602B功能和引脚一样（除了调背光的二个线脚）
+LOGIC ANALYSER 逻辑分析器       
+LOGICPROBE 逻辑探针       
+LOGICPROBE[BIG] 逻辑探针 用来显示连接位置的逻辑状态 
+LOGICSTATE 逻辑状态 用鼠标点击,可改变该方框连接位置的逻辑状态 
+LOGICTOGGLE 逻辑触发       
+MASTERSWITCH 按钮 手动闭合,立即自动打开 
+MOTOR        马达       
+OR        或门       
+POT-LIN        三引线可变电阻器       
+POWER        电源
+RES        电阻       
+RESISTOR 电阻器       
+SWITCH        按钮 手动按一下一个状态 
+SWITCH-SPDT 二选通一按钮       
+VOLTMETER 伏特计       
+VOLTMETER-MILLI mV伏特计       
+VTERM        串行口终端       
+Electromechanical 电机       
+Inductors 变压器       
+Laplace Primitives 拉普拉斯变换       
+Memory Ics          
+Microprocessor Ics          
+Miscellaneous 各种器件 AERIAL-天线；ATAHDD；ATMEGA64；BATTERY；CELL；CRYSTAL-晶振；FUSE；METER-仪表； 
+Modelling Primitives 各种仿真器件 是典型的基本元器模拟，不表示具体型号，只用于仿真，没有PCB 
+Optoelectronics 各种发光器件 发光二极管，LED，液晶等等 
+PLDs & FPGAs          
+Resistors 各种电阻       
+Simulator Primitives 常用的器件       
+Speakers & Sounders       
+Switches & Relays 开关，继电器，键盘       
+Switching Devices 晶阊管 
+Transistors 晶体管（三极管，场效应管）
+TTL 74 series          
+TTL 74ALS series          
+TTL 74AS series          
+TTL 74F series          
+TTL 74HC series          
+TTL 74HCT series          
+TTL 74LS series          
+TTL 74S series          
+Analog Ics 模拟电路集成芯片
+Capacitors 电容集合
+CMOS 4000 series          
+Connectors 排座，排插
+Data Converters ADC,DAC
+Debugging Tools 调试工具
+ECL 10000 Series
+
+
+
+
+
+
+++++++++元件库详细分类
+
+
+1.analog ics  模拟集成器件8个子类：
+     amplifier                   放大器
+     comparators                 比较器
+     display drivers             显示驱动器
+     filters                     滤波器
+     miscellaneous               混杂器件
+     regulators                  三端稳压器
+     timers                      555定时器
+     voltage references          参考电压
+
+2，capacitors           CAP电容，23个分类别
+     animated                    可显示充放电电荷电容
+     audio grade axial           音响专用电容
+     axial lead polypropene      径向轴引线聚丙烯电容
+     axial lead polystyrene      径向轴引线聚苯乙烯电容
+     ceramic disc                陶瓷圆片电容
+     decoupling disc             解耦圆片电容
+     high temp radial            高温径向电容
+     high temp axial electrolytic高温径向电解电容
+     metallised polyester film   金属聚酯膜电容
+     metallised polypropene      金属聚丙烯电容
+     metallised polypropene film 金属聚丙烯膜电容
+     miniture electrolytic       微型电解电容
+     multilayer metallised polyester film 多层金属聚酯膜电容
+     mylar film                  聚酯薄膜电容
+     nickel barrier              镍栅电容
+     non polarised               无极性电容
+     polyester layer             聚酯层电容
+     radial electrolytic         径向电解电容
+     resin dipped                树脂蚀刻电容
+     tantalum bead               钽珠电容
+     variable                    可变电容
+     vx a xial electrolytic      VX 轴电解电容
+
+3，CMOS 4000 series    4000系列数字电路
+     adders                      加法器
+     buffers & drivers           缓冲和驱动器
+     comparators                 比较器
+     counters                    计数器
+     decoders                    译码器
+     encoders                    编码器
+     flip-flops & latches        触发器和锁存器
+     frequency dividers & tiner  分频和定时器
+     gates & inverters           门电路和反相器
+     memory                      存储器
+     misc.logic                  混杂逻辑电路
+     mutiplexers                 数据选择器
+     multivibrators              多谐振荡器
+     phase-locked loops(PLL)     锁相环
+     registers                   寄存器
+     signal switcher             信号开关
+
+4，connectors           接头 ；8个分类：
+     audio                       音频接头
+     D-type                      D型接头
+     DIL                         双排插座
+     header blocks               插头
+     miscellaneous               各种接头
+     PCB transfer                PCB 传输接头
+     SIL                         单盘插座
+     ribbon cable                蛇皮电缆
+     terminal blocks             接线端子台
+
+5，data converters      数据转换器：4个分类：
+     A/D converters              模数转换器
+     D/A converters              数模转换器
+     sample & hold               采样保持器
+     temperature sensors         温度传感器
+
+6，debugging tools      调试工具数据：3个类别：
+     breakpoint triggers         断点触发器
+     logic probes                逻辑输出探针
+     logic timuli                逻辑状态输入
+
+7，diodes               二极管；8个分类：
+     bridge rectifiers           整流桥
+     generic                     普通二极管
+     rectifiers                  整流二极管
+     schottky                    肖特基二极管
+     switching                   开关二极管
+     tunnel                      隧道二极管
+     varicap                     稳压二极管
+
+8，inductors            电感：3个类别：
+     generic                     普通电感
+     SMT inductors               表面安装技术电感
+     transformers                变压器
+
+9,laplace primitives    拉普拉斯模型：7个类别：
+     1st order                   一阶模型
+     2nd order                   二阶模型
+     controllers                 控制器
+     non-linear                  非线性模型
+     operators                   算子
+     poles/zeros                 极点/零点
+     symbols                     符号
+
+10，memory ICs          存储器芯片：7个分类：
+     dynamic RAM                 动态数据存储器
+     EEPROM                      电可擦出程序存储器
+     EPROM                       可擦出程序存储器
+     I2C memories                I2C总线存储器
+     memory cards                 存储卡
+     SPI Memories                SPI总线存储器
+     static RAM                  静态数据存储器
+
+11，microprocessor ICs   微处理器：13个分类：
+
+12，modelling primitivvves 建模源：9个分类：
+
+13，operational amplifiers 运算放大器：7个分类：
+     dual                        双运放
+     ideal                       理想运放
+     macromodel                  大量使用的运放
+     octal                       8运放
+     quad                        4运放
+     single                      单运放
+     triple                      三运放
+
+14，optoelectronics         光电器件：11个分类：
+     7-segment displays          7段显示
+     alphanumeric LCDs           液晶数码显示
+     bargraph displays           条形显示
+     dot matrix displays         点阵显示
+     graphical LCDs              液晶图形显示
+     lamps                       灯
+     LCD controllers             液晶控制器
+     LCD controllers             液晶面板显示
+     LEDs                        发光二极管
+     optocouplers                光电耦合
+     serial LCDs                 串行液晶显示
+
+15，resistors              电阻：11个分类：
+     0.6w metal film             0.6w金属膜电阻
+     10 watt wirewound           10w绕线电阻
+     2w metal film               2w 金属膜电阻
+     3 watt wirewound            3w 绕线电阻
+     7 watt wirewound            7w 绕线电阻
+     generix                     普通电阻
+     high voltage                高压电阻
+     NTC                         负温度系数热敏电阻
+     resistor packs              排阻
+     variable                    滑动变阻器
+     varisitors                  可变电阻
+     参考试验中采用的可变电阻是：  POT-HG     
+
+16，simulator primitives   仿真源：3个类别：
+     flip-flops                  触发器
+     gates                       门电路
+     sources                     电源
+
+17，switches and relays    开关和继电器：4个类别：
+     key pads                    键盘
+     relays                      普通继电器
+     relays(specific)            专用继电器
+     switches                    开关
+
+18,switching devices       开关器件：4个分类：
+     DIACs                       两端交流开关
+     generic                     普通开关元件
+     SCRs                        可控硅
+     TRIACs                      三端双向可控硅
+
+19，真空管：
+
+20，传感器：2个分类：
+     pressure                    压力传感器
+     temperature                 温度传感器
+
+21，晶体管：8个分类：
+     bipolar                     双极型晶体管
+     generic                     普通晶体管(错误）
+     IGBT                        绝缘栅双极晶体管
+     JFET                        结型场效应管
+     MOSFET                      金属氧化物场效应管
+     RF power LDMOS              射频功率 LDMOS管
+     RF power VDMOS              射频功率 VDMOS管
+     unijunction                 单结晶体管
+
+
+-----------------------------------------------
+AD0808       AD电路
+COMPIM       PC串口，有仿真模型
+compim       串口    无仿真模型
+AND          与门 
+ANTENNA      天线 
+BATTERY      直流电源 
+BELL         铃,钟 
+BVC          同轴电缆接插件 
+BRIDEG       1 整流桥(二极管) 
+BRIDEG       2 整流桥(集成块) 
+BUFFER       缓冲器 
+BUZZER       蜂鸣器 
+CAP             电容 
+CAPACITOR       电容 
+CAPACITOR POL   有极性电容 
+CAPVAR          可调电容 
+CIRCUIT BREAKER 熔断丝 
+COAX            同轴电缆 
+CON             插口 
+CRYSTAL         晶振 
+DB              并行插口 
+DIODE           二极管 
+DIODE SCHOTTKY 稳压二极管 
+DIODE VARACTOR 变容二极管 
+DPY_3-SEG      3段LED 
+DPY_7-SEG      7段LED 
+DPY_7-SEG_DP   7段LED(带小数点) 
+ELECTRO        电解电容 
+FUSE           熔断器 
+INDUCTOR       电感 
+INDUCTOR IRON  带铁芯电感 
+INDUCTOR3      可调电感 
+JFET N         N沟道场效应管 小功率
+JFET P         P沟道场效应管 小功率
+LAMP           灯泡 
+LAMP NEDN      起辉器 
+LED            发光二极管 
+METER          仪表 
+MICROPHONE     麦克风 
+MOSFET         MOS管 P型   NMOS FET、PMOS FET、nMOSFET、pMOSFET   
+                           DMOS是双重扩散MOSFET
+MOTOR AC       交流电机 
+MOTOR SERVO    伺服电机 
+NAND           与非门 
+NOR            或非门 
+NOT            非门 
+NPN            NPN三极管 
+NPN-PHOTO      感光三极管 
+OPAMP          运放 
+OR             或门 
+PHOTO          感光二极管 
+PNP            三极管 
+NPN DAR        NPN三极管 
+PNP DAR        PNP三极管 
+POT            滑线变阻器 
+PELAY-DPDT     双刀双掷继电器 
+RES            电阻 
+RES3.4         可变电阻 
+RESISTOR BRIDGE ? 桥式电阻 
+RESPACK ?      电阻 
+SCR            晶闸管 
+PLUG ?         插头 
+PLUG AC FEMALE 三相交流插头 
+SOCKET ?       插座 
+SOURCE CURRENT 电流源 
+SOURCE VOLTAGE 电压源 
+SPEAKER        扬声器 
+SW ?           开关 、各种继电器、
+SW-DPDY ?      双刀双掷开关 
+SW-SPST ?      单刀单掷开关 
+SW-PB          按钮 、自锁开关等
+THERMISTOR     电热调节器 
+TRANS1         变压器 
+TRANS2         可调变压器 
+TRIAC ?        三端双向可控硅 
+TRIODE ?       三极真空管 
+VARISTOR       变阻器 
+ZENER ?        齐纳二极管 
+DPY_7-SEG_DP   数码管 
+SW-PB          开关
+7407             驱动门 
+1N914           二极管 
+74Ls00          与非门 
+74LS04          非门 
+74LS08          与门 
+74LS390         TTL 双十进制计数器 
+7SEG            4针BCD-LED 输出从0-9 对应于4根线的BCD码 
+7SEG            3-8译码器电路BCD-7SEG转换电路 
+ALTERNATOR      交流发电机 
+AMMETER-MILLI   mA安培计 
+AND             与门 
+BATTERY         电池/电池组 
+BUS             总线驱动集成电路
+CAP             电容 
+CAPACITOR       电容器 
+CLOCK           时钟信号源 
+CRYSTAL         晶振 
+D-FLIPFLOP      D触发器 
+FUSE            保险丝 
+GROUND          地 
+LAMP            灯 
+LED-RED         红色发光二极管 
+
+LM016L         2行16列液晶 可显示2行16列英文字符，有8位数据总线D0-D7，
+               RS，R/W，EN三个控制端口（共14线），工作电压为5V。没背
+               光，和常用的1602B功能和引脚一样（除了调背光的二个线脚） 
+
+LOGIC ANALYSER  逻辑分析器 
+LOGICPROBE      逻辑探针 
+LOGICPROBE[BIG] 逻辑探针 用来显示连接位置的逻辑状态 
+LOGICSTATE      逻辑状态 用鼠标点击,可改变该方框连接位置的逻辑状态 
+LOGICTOGGLE     逻辑触发 
+MASTERSWITCH    按钮 手动闭合,立即自动打开 
+MOTOR           马达 
+OR              或门 
+POT-LIN         三引线可变电阻器 
+POWER           电源 
+RES             电阻 
+RESISTOR        电阻器 
+SWITCH          按钮 手动按一下一个状态 
+SWITCH-SPDT     二选通一按钮 
+VOLTMETER       伏特计 
+VOLTMETER-MILLI mV伏特计 
+VTERM           串行口终端 
+Electromechanical 电机 
+Inductors       变压器 
+Laplace Primitives 拉普拉斯变换 
+Memory Ics    
+Microprocessor Ics    
+Miscellaneous   各种器件  AERIAL         -天线；ATAHDD；ATMEGA64；BATTERY；
+                          CELL；CRYSTAL-晶振；FUSE；METER-仪表； 
+Modelling Primitives      各种仿真器件 是典型的基本元器模拟，不表示具体型号，只用于仿真，没有PCB 
+Optoelectronics           各种发光器件 发光二极管，LED，液晶等等 
+PLDs & FPGAs    
+Resistors                 各种电阻 
+Simulator Primitives      常用的器件 
+Speakers & Sounders 
+Switches & Relays         开关，继电器，键盘 
+Switching Devices         晶阊管 
+Transistors               晶体管（三极管，场效应管） 
+TTL 74 series    
+TTL 74ALS series    
+TTL 74AS series    
+TTL 74F series    
+TTL 74HC series    
+TTL 74HCT series    
+TTL 74LS series    
+TTL 74S series    
+Analog Ics               模拟电路集成芯片 
+Capacitors                电容集合 
+CMOS 4000 series    
+Connectors               排座，排插 
+Data Converters ADC,DAC 
+Debugging Tools          调试工具 
+ECL 10000 Series         各种常用集成电路 
+
+
+
